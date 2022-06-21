@@ -1,0 +1,229 @@
+body{
+
+background-color:#48D1CC;
+}
+
+
+.navbar-brand{
+	color:#FFFFFF;
+	font-style: font-family: 'Oxygen', sans-serif;
+	font-size: 24px;
+	text-shadow: 2px 2px #ff0000 ;
+	text-transform: uppercase;
+}
+
+
+
+#nav-list
+{
+	
+	font-size: 18px;
+}
+.nav-item a
+{
+	color: #FFFFFF;
+}
+.navbar-toggler-icon
+{
+
+
+ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(280, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+.navbar-toggler
+{
+	border: 1px solid white;
+	background-color: #D3D3D3;
+}
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+
+}
+
+/* END HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url(G:\bhushan\Assignment5\Image\hotel.jpg);
+    background-repeat: no-repeat;
+   height: 675px;
+    overflow: hidden;
+    
+  }
+  #Menu-title
+{
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px #000000;
+  font-style: font-family: 'Oxygen', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#menu-subtitle
+{
+  text-align: center;
+  color: ##000000;
+  font-size: 16px;
+  font-style: font-family: 'Oxygen', sans-serif;
+  padding-bottom: 10px;
+}
+}
+
+  /********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background-image: url('G:\bhushan\south saga\Image\hotel768.jpg') ;
+    background-repeat: no-repeat;
+    height: 445px;
+}
+#footer-itam {
+  padding-bottom: 15px;
+}
+#Menu-title
+{
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px #000000;
+  font-style: font-family: 'Oxygen', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#menu-subtitle
+{
+  text-align: center;
+  color: ##000000;
+  font-size: 16px;
+  font-style: font-family: 'Oxygen', sans-serif;
+  padding-bottom: 10px;
+}
+}
+
+  /********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ .container .jumbotron {
+    background-image: url('G:\bhushan\south saga\Image\hotel992.jpg');
+    background-repeat: no-repeat;
+    height: 564px;
+
+}
+#Menu-title
+{
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px #000000;
+  font-style: font-family: 'Oxygen', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#menu-subtitle
+{
+  text-align: center;
+  color: ##000000;
+  font-size: 16px;
+  font-style: font-family: 'Oxygen', sans-serif;
+  padding-bottom: 10px;
+
+}
+
+
+  
+
+}
+
+
+}
+
+/*--- Card -----*/
+
+.card .car-body a {
+  position: relative;
+ bottom: 0px;
+ text-align: center;
+ width: 100%;
+ right: 0px;
+ text-transform: uppercase;
+ background-color: #000;
+opacity: .8;
+
+
+}
+/* Dont Know What Happend Here But Code Not Working*/
+#footer
+{
+  padiing-top: 35px;
+  padding-bottom: 30px;
+  border: 1px solid black;
+  background-color: #6495ED;
+
+}
+#heading
+{
+  text-transform: uppercase;
+  text-decoration-color: #C71585;
+}
+/*------------------------------------------*/
+/*------------------------------------------*/
+/*--- MENU CARTEGORY---*/
+
+#Menu-title
+{
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px #000000;
+  font-style: font-family: 'Oxygen', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#menu-subtitle
+{
+  text-align: center;
+  color: ##000000;
+  font-size: 16px;
+  font-style: font-family: 'Oxygen', sans-serif;
+  padding-bottom: 10px;
+}
+.Menu-img
+{
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+  border:  2px solid black;
+  color: black;
+}
+/* --------------------------------------------------------------------------*/
+.Menu-img span 
+{
+position: absolute;
+bottom: 0px;                                                           
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.Menu-img:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+
+/* Category */
+.category-item .catogory-image
+{
+  border: 2px solid #000000;
+  max-width: 200px;
+  overflow: hidden;
+  
+}
+/*-------------------------------------------------------------------*/
